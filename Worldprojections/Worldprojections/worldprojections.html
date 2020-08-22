@@ -6,35 +6,82 @@
     <title>Projections</title>
 </head>
 <body>
-    <h1>In this project I learned how to display images in different projections</h1>
+    <h1>Caleb 
+        Geog 370  
+    </h1>
     
     <h2 style="color:red">Describe in your own words how you displayed the map in different projections using QGIS</h2>
-    <p>You can write a paragraph here</p>
+    <p>In this project I learned how to display images in different projections by first downloading the data file and importing the file into QGIS.
+        Then I utilized the indicatrix mapper pluggin whcih provided the circles and latitude and longitude for the current projections. I change the 
+        projection by using QGIS's project coordinate reference system. I was able to search for different ESRI and EPSG projections through their 
+        identification codes. After I have the desired projection and the proper indicatrixs I exported the maps as pngs which I could then ustilize 
+        in my Github website.</p>
     
     <h2>Projection 1</h2>
-    <h3>Some observations</h3>
-    <a href="./Homework 2/Dev/Geog370map-projections/Worldprojections/Worldprojections/maps/Pseudo Mercator Projection.png">
-    <img src="./Homework 2/Dev/Geog370map-projections/Worldprojections/Worldprojections/maps/Pseudo Mercator Projection.png" alt="WGS84" width='500px'>
+    <h3>Observations
+        The Pseudo Mercator progjection is an important projection utilized by powerful engines such as google maps and global positional systems.
+        This projection maintains the proportions and shapes of the continents, however the size of them are distorted. This is especially evident 
+        when comparing the areas near the equator and those closer to the poles.For instance Greenland appears to be larger than Africa, however in 
+        reality this is not the case. Continents and countries along and near the equator tend to be smaller than reality and the continents and 
+        countires farther from the equator tend to be larger than reality.   
+    </h3>
+    <a href="./maps/Pseudo Mercator Projection.png">
+    <img src="./maps/Pseudo Mercator Projection.png" alt="Mercator" width='500px'>
     </a>
     <h2>Projection 2</h2>
-    <h3>Some observations</h3>
-    <a href="./Homework 2/Dev/Geog370map-projections/Worldprojections/Worldprojections/maps/Robinson Projection.png">
-    <img src="./Homework 2/Dev/Geog370map-projections/Worldprojections/Worldprojections/maps/Robinson Projection.png" alt="Aitoff" width='500px'>
+    <h3>Observations
+        The Robinson Projection provides a more accurate presentation of the continents in terms of scale. However, there are slight distortions
+        in scale. Like the Pseudo Mercator map the areas closer to the equator are smaller than the areas farther away, except with the Robinson 
+        Projection, this is less noticable. This map also features somewhat of a curvature.   
+    </h3>
+    <a href="./maps/Robinson Projection.png">
+    <img src="./maps/Robinson Projection.png" alt="Robinson" width='500px'>
     </a>
     <h2>Projection 3</h2>
-    <h3>Some observations</h3>
-    <a href="./Homework 2/Dev/Geog370map-projections/Worldprojections/Worldprojections/maps/Gall Stereographic Projection.png">
-    <img src="./Homework 2/Dev/Geog370map-projections/Worldprojections/Worldprojections/maps/Gall Stereographic Projection.png" alt="Aitoff" width='500px'>
+    <h3>Observations
+        The Goode Homolosine Land Projection provides ta globe-like projection. Furthermore the the scale and proportion of the
+        projection is practically balanced and equal. However the short coming of this map is that it is more difficult to see the costal features
+        of the areas closer to the poles. Looking at Greenland, you can see that it is difficult to see costal details and even the details of the 
+        mass of lands adjacent to it. By contrast these features are seen clearly in the Pseudo Mercator map.    
+    </h3>
+    <a href="./maps/Goode Homolosine Land Projection.png">
+    <img src="./maps/Goode Homolosine Land Projection.png" alt="Goode" width='500px'>
     </a>
     <h2>Projection 4</h2>
-    <h3>Some observations</h3>
-    <a href="./Homework 2/Dev/Geog370map-projections/Worldprojections/Worldprojections/maps/Goode Homolosine Land Projection.png">
-    <img src="./Homework 2/Dev/Geog370map-projections/Worldprojections/Worldprojections/maps/Goode Homolosine Land Projection.png" alt="Aitoff" width='500px'>
+    <h3>Observations
+        The Sphere Winkel I Projection features globe curvature, like the Goode Homolosine map, however it provides a more acurate projection of 
+        Greenland and the northern area of canada. It also displaces relatively accurate scale. See Greenland is significantly smaller than Africa
+        as the case is in reality.
+    </h3>
+    <a href="./maps/Sphere_Winkel.png">
+    <img src="./maps/Sphere_Winkel.png" alt="Winkel" width='500px'>
     </a>
-    <h2 style="color:red">Now, you should <u>add the following projections on your own:</u></h2>
+    <h2>Projection 5</h2>
+    <h3>Observations
+        The map features no curvature, yet it does feature accurate scale and proportion in the countries and the areas near the equator. However there
+        is high distortion in the northern and southern polar regions. 
+    </h3>
+    <a href="./maps/World_Cylindrical_Equal_Area.png">
+    <img src="./maps/World_Cylindrical_Equal_Area.png" alt="Cylindrical" width='500px'>
+    </a>
+    <h2>Projections 6 and 7</h2>
+    <h3>Observations
+     The World Equidistant Conic Projection and the following projection (North Pole Azimuthal Equidistant Projection) are unique in the since that
+     they are flat and circular. These maps have a large area of ocean that is located in the upper center part of the map. The scale and proportions of
+     the land masses in these maps are essentially the same. These maps differ from each other in their projection of antartica. In the World Equidistant
+     Conic Projection, Antartica does not completely suround the other land masses as it does in the North Pole Azimuthal Equidistant Projection map. Another
+     feature of these maps is that the distortion increases as you move farther from the center of the maps.    
+    </h3>
+    <a href="./maps/World_Equidistant_Conic 54027.png">
+    <img src="./maps/World_Equidistant_Conic 54027.png" alt="Conic" width='500px'>
+    
+    <a href="./maps/North_Pole.png">
+    <img src="./maps/North_Pole.png" alt="North" width='500px'>
+    </a>    
     <h3>EPSG: 3857, 53018, 54034, 54027, 102016, and two additional projections that you choose.</h3>
     <p></p>
     <h2>Data used for this project</h2>
     <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natrual Earth 1:10m Cultural Vector </a>
+    <p>data for purple projections come from Sakai</p>
 </body>
 </html>
